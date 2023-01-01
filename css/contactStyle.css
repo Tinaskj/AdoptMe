@@ -1,0 +1,15 @@
+.contact-main-container{
+    color: #485c70;
+    
+}
+.contact-title{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-info{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}

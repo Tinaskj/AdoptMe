@@ -1,0 +1,10 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.login-password {
+    margin: 1px;
+    margin-bottom: 5px;
+}

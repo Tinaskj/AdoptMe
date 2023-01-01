@@ -1,0 +1,8 @@
+body {
+margin: 0px;
+}
+.main-dogs-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}

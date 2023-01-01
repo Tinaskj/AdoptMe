@@ -1,0 +1,41 @@
+.registerForm {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "form-div form-desc-container";
+    column-gap: 8px;
+    justify-content: center;
+    padding: 5px;
+    font-size: 18px;
+}
+.form-div {
+    margin: 5px;
+}
+.form-input {
+    width: 50px;
+    float: left;
+    margin: 3px;
+
+}
+.genderInput{
+    display: flex;
+}
+.register-container {
+    display: grid;
+    align-content: center;
+    width: 30em;
+    margin: auto;
+    background-color: #dcdbf3;
+    border-radius: 5px;
+    border: 2px solid #485c70;
+}
+.form-h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.submit-btn {
+    align-content: center;
+}

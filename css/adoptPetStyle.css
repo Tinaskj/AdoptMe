@@ -1,0 +1,19 @@
+.dog-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #deddf5;
+    padding: 20px;
+}
+.dog-cards {
+    background: #9da4c7;
+    border: solid #9da4c7 1px;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.dog-img {
+    width: 20vw;
+    height: 30vh;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/startPageStyle.css">
+    <link rel="stylesheet" href="/css/headerStyle.css">
+    <link rel="stylesheet" href="/css/mainPageStyle.css">
+    <link rel="stylesheet" href="/css/adoptPetStyle.css">
+    <link rel="stylesheet" href="/css/registerPetStyle.css">
+    <link rel="stylesheet" href="/css/createUserStyle.css">
+    <link rel="stylesheet" href="/css/loginStyle.css">
+    <link rel="stylesheet" href="/css/contactStyle.css">
+    
+    <title>Adopt Me</title>
+    <script src="js/model.js"></script>
+    <script src="js/startController.js"></script>
+    <script src="js/mainController.js"></script>
+    <script src="js/logInController.js"></script>
+    <script src="js/createUserController.js"></script>
+    <script src="js/registerPetController.js"></script>
+    <script src="js/adoptPetController.js"></script>
+    <script src="js/contactController.js"></script>
+    <script src="js/logInView.js"></script>
+    <script src="js/createUserView.js"></script>
+    <script src="js/startView.js"></script>
+    <script src="js/mainView.js"></script>
+    <script src="js/registerPetView.js"></script>
+    <script src="js/adoptPetView.js"></script>
+    <script src="js/contactView.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+    </div>
+</body>
+<script>
+    startPage();
+
+    function updateView() {
+        let html = '';
+        if (model.currentPage == 'startView') html = updateViewStart();
+        if (model.currentPage == 'createUserView') html = updateCreateUserView();
+        if (model.currentPage == 'logIn') html = updateViewLogin();
+        if (model.currentPage == 'mainView') html = updateViewMain();
+        if (model.currentPage == 'registerPet') html = updateViewRegisterPet();
+        if (model.currentPage == 'adoptPet') html = updateViewAdoptPet();
+        if (model.currentPage == 'contact') html = updateViewContact();
+        document.getElementById("app").innerHTML = html
+    }
+</script>
+
+</html>

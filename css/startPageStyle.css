@@ -1,0 +1,19 @@
+.start-btns-container {
+    display: flex;
+    justify-content: center;
+}
+
+.start-btns {
+    margin: 5px;
+    padding: 5px;
+    background-color: #deddf5;
+    border: transparent;
+    border-radius: 2em;
+}
+
+.start-btns:hover {
+    cursor: pointer;
+    background-color:#c7c4ea;
+    border-radius: 2em;
+    transition: 0.7s;
+}

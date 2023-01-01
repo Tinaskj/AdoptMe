@@ -1,0 +1,33 @@
+*{
+    font-family: 'Prompt', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+button {
+    margin: 5px;
+    padding: 5px;
+    background-color: #deddf5;
+    border: transparent;
+    border-radius: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#c7c4ea;
+    border-radius: 2em;
+    transition: 0.7s;
+}
+
+
+.backgroundImageMain {
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+    overflow: hidden;
+}
+
